@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Musinteractiva</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+
+
+  <!-- custom css file -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">Musinteractiva</a>
+
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar">Menu</label>
+
+    <img class="img-banner" src="images/banner2b.jpg" alt="libros">
+    <img class="img-banner2" src="images/banner4.jpg" alt="libros2">
+
+    <div class="translate">
+                    <!-- GTranslate: https://gtranslate.io/ -->
+                    <a href="#" onclick="doGTranslate('es|es');return false;" title="Spanish" class="gflag nturl" style="background-position:-600px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Spanish" /></a>
+                    <a href="en/index.html" onclick="doGTranslate('es|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="English" /></a>
+
+                  </div>
+      <!-- end of GTranslate-->
+
+
+    <nav class="dropdown">
+                    <ul>
+                      <li><a href="#">inicio</a>
+                        <ul>
+                          <li><a href="q-somos.html">quiénes somos</a></li>
+                          <li><a href="contacto.html">contacto</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">descargas</a>
+                      	<ul>
+                      	  <li><a href="contenido.html">contenido</a></li>
+                     	  <li><a href="partituras.html">partituras</a></li>
+                  		</ul>
+                      </li>
+                    </ul>
+     </nav>
+
+</header>
+
+<div class="wrapper">
+
+
+  <div class="img-info">
+
+    <h2>Contacto</h2>
+                         <p style="text-align: left">
+Dr. Mario Arenas Navarrete. <br>
+Condominio Vista Mar. Avenida Miramar 5324, Departamento 403,
+Peñuelas, Coquimbo, Chile.<br>
+Teléfono celular: +56 994065016<br>
+Correo electrónico: ritmo.auditiva@gmail.com<br>
+Sitios web: <a href="https://solfman.info">https://solfman.info</a> y <a href="https://marioarenas.cf">https://marioarenas.cf</a><br>
+
+<div class="responsive2">
+<form name="gform" id="gform" enctype="text/plain" style="border: 3px solid #ffffff; margin-left:0px; 
+" action="https://docs.google.com/forms/d/e/1FAIpQLSeaN9B9C_TpXID6zAwo_vGGMdO-DICosFQTe8MF1DOnyih9-Q/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  <p>
+  Name:<br>
+  <input type="text" name="entry.219116800" id="entry.219116800"><br>
+  E-mail:<br>
+  <input type="text" name="entry.1582440820" id="entry.1582440820"><br>
+  Message:<br>
+  <textarea id="entry.952508961" name="entry.952508961" rows="10" cols="40"> </textarea>
+
+  <br><input type="submit" value="Submit">
+
+</form>
+</div>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+    </p>
+    
+  </div>
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Tu envío ha sido procesado...');
+  });
+</script>
+</body>
+
+</html>

@@ -26,6 +26,17 @@ li{
   list-style: none;
 }
 
+ol.pa{
+  padding-left:2em;
+
+}
+li.pa{
+  text-transform: none;
+  list-style: true;
+  padding-left:1em;
+}
+
+
 .more{
    display: none;
 }
@@ -166,7 +177,7 @@ header label{
   text-align:right;
   position:fixed;
   top:226px;
-  right:700px;
+  right:300px;
 }
 .img-info p {
   padding: 4px 0px;
@@ -297,6 +308,12 @@ tr:nth-child(even){
 
 #more {display: none;}
 
+ul.no-bullets {
+  list-style-type: none;
+  margin-left: 30px;
+  padding: 0;
+}
+
 @media(max-width:991px){
   header{
     padding:0px;
@@ -379,7 +396,7 @@ tr:nth-child(even){
       text-align:right;
       position:fixed;
       top:57px;
-      right:92px;
+      right:79px;
     }
     .responsive{
         width: 100%;
