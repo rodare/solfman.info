@@ -25,7 +25,7 @@ ol.pa{
 
 }
 li.pa{
-  text-transform: capitalize;
+  text-transform: none;
   list-style: true;
   padding-left:1em;
 }
@@ -390,7 +390,7 @@ ul.no-bullets {
       text-align:right;
       position:fixed;
       top:57px;
-      right:92px;
+      right:79px;
     }
     .responsive{
         width: 100%;
